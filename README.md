@@ -3,98 +3,83 @@ USCCB-based liturgical calendar for the Diocese of Dodge City, Kansas, provided 
 
 # Diocese of Dodge City Liturgical Calendar
 
-A USCCB-based liturgical calendar for the **Diocese of Dodge City, Kansas**, provided as a subscribable iCalendar (`.ics`) feed for Google Calendar and other calendar applications.
+A USCCB-based liturgical calendar for the **Diocese of Dodge City, Kansas**, provided as a subscribable iCalendar (`.ics`) feed for Google Calendar and other compatible calendar applications.
 
 The calendar currently covers **2026–2028**.
+
+## Subscribe
+
+Use this URL to subscribe:
+
+`https://vvillia3.github.io/dodge-city-liturgical-calendar/dodge-city-liturgical-calendar.ics`
+
+### Google Calendar
+
+1. Open Google Calendar on a computer.
+2. Under **Other calendars**, click **+**.
+3. Choose **From URL**.
+4. Paste:
+
+   `https://vvillia3.github.io/dodge-city-liturgical-calendar/dodge-city-liturgical-calendar.ics`
+
+5. Click **Add calendar**.
+
+**Do not download and import the `.ics` file into your primary calendar.**  
+Importing creates individual events. Subscribing by URL allows future corrections and additional years to appear automatically when the published calendar is updated.
 
 ## Calendar Contents
 
 The calendar includes:
 
-* Sundays
-* Solemnities
-* Feasts
-* Obligatory memorials
-* Optional memorials
-* U.S. proper celebrations
-* Diocese of Dodge City proper celebrations
-* Holy Days of Obligation
-* Indication when a Holy Day obligation is abrogated
-* Ash Wednesday — Fast & Abstinence
-* Good Friday — Fast & Abstinence
-* Fridays of Lent — Abstinence
-* Fridays outside Lent — Day of Penance, except when a solemnity occurs
+- Sundays
+- Solemnities
+- Feasts
+- Obligatory memorials
+- Optional memorials
+- U.S. proper celebrations
+- Diocese of Dodge City proper celebrations
+- Holy Days of Obligation
+- Indication when a Holy Day obligation is abrogated
+- Ash Wednesday — Fast & Abstinence
+- Good Friday — Fast & Abstinence
+- Fridays of Lent — Abstinence
+- Fridays outside Lent — Day of Penance, except when a solemnity occurs
 
-Ordinary calendar entries designated only as a **weekday** are omitted.
+Events designated only as a **weekday** are omitted.
 
-## Naming Conventions
+## Display Conventions
 
-For compact display in calendar applications, the following conventions are used:
+For compact display in calendar applications:
 
-* `St` for Saint
-* `Sts` for Saints
-* `&` instead of “and”
-* `Opt` for Optional
-* Ordinal numbers are written numerically, such as `10th`, `21st`, and `32nd`
-* “Doctor of the Church” is shortened to `Doctor`
-* Liturgical ranks are placed in parentheses, for example:
+- `St` = Saint
+- `Sts` = Saints
+- `&` is used instead of “and”
+- `Opt` = Optional
+- Ordinal numbers are written numerically, e.g. `10th`, `21st`
+- “Doctor of the Church” is shortened to `Doctor`
+- Liturgical rank is shown in parentheses
+- November 1 is displayed as `ALL SAINTS`
+- Saturday optional memorials of the Blessed Virgin Mary are displayed as `Opt Mem of the BVM`
+- Sundays and Holy Days of Obligation are displayed in ALL CAPS
 
-  * `St Augustine, Bishop & Doctor (Memorial)`
-  * `The Visitation of the Blessed Virgin Mary (Feast)`
-* November 1 is displayed as `ALL SAINTS`
-* Saturday optional memorials of the Blessed Virgin Mary are displayed as `Opt Mem of the BVM`
-* Sunday and Holy Day of Obligation entries are displayed in ALL CAPS
+## Updates
 
-## Subscribe in Google Calendar
+The subscription URL will remain the same when the calendar is updated.
 
-Do **not** download and import the `.ics` file into your primary calendar. Importing creates individual permanent events and does not create a subscription.
-
-Instead, subscribe to the calendar:
-
-1. Open Google Calendar on a computer.
-2. Find **Other calendars** in the left sidebar.
-3. Click the **+** button.
-4. Choose **From URL**.
-5. Enter the subscription URL:
-
-`https://YOUR-GITHUB-USERNAME.github.io/dodge-city-liturgical-calendar/dodge-city-liturgical-calendar.ics`
-
-6. Click **Add calendar**.
-
-Replace `YOUR-GITHUB-USERNAME` with the GitHub username hosting this repository.
-
-Once subscribed, future updates to the published `.ics` file can appear automatically without requiring the calendar to be imported again.
-
-## Other Calendar Applications
-
-The same subscription URL may also be used with calendar programs that support the iCalendar standard, including Apple Calendar and other compatible applications.
-
-Look for an option such as:
-
-**Subscribe to Calendar**, **Add Calendar from URL**, or **Internet Calendar**.
-
-## Updating the Calendar
-
-The public subscription URL should remain unchanged.
-
-When additional years or corrections are added, replace the existing:
+Future corrections and additional calendar years will be published by replacing the existing:
 
 `dodge-city-liturgical-calendar.ics`
 
-file in this repository while retaining the same filename and location.
+file in this repository.
 
 Subscribers should not need to resubscribe.
 
 ## Sources
 
-The calendar is based primarily on the official annual liturgical calendars published by the **United States Conference of Catholic Bishops (USCCB)** for the dioceses of the United States.
-
-Diocese-specific observances are based on information applicable to the **Diocese of Dodge City, Kansas**.
-
-Users should consult the USCCB and the Diocese of Dodge City for authoritative liturgical and canonical information.
+The calendar is based on the official annual liturgical calendars published by the **United States Conference of Catholic Bishops (USCCB)** for the dioceses of the United States, together with proper observances applicable to the **Diocese of Dodge City, Kansas**.
 
 ## Disclaimer
 
 This is an independently prepared calendar and is **not an official publication of the USCCB or the Diocese of Dodge City**.
 
-Although care has been taken to follow the applicable liturgical calendars and observances, users should refer to official diocesan and USCCB sources if a question or discrepancy arises.
+Users should consult official USCCB and diocesan sources if a question or discrepancy arises.
